@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validações nativas</title>
+</head>
+<body>
+    <form method="GET">
+        <input type="hidden" name="country" value="br">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro nome:<br>
+                <input type="text" name="name" required minlength="2">
+            </label><br>
+
+            <label>
+                Sobrenome:<br>
+                <input type="text" name="lastname" minlength="2">
+            </label><br>
+
+            <label>
+                Email:<br>
+                <input type="text" name="email" pattern="(^[])">
+            </label><br>
+
+            <label>
+                Idade:<br>
+                <input type="number" name="age" step="1" min="1" max="120">
+            </label><br>
+
+            <label>
+                Data de nascimento:<br>
+                <input type="date" name="birthdate" max="2023-11-19">
+            </label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa:<br>
+                <input type="text" name="companynome">
+            </label><br>
+
+            <label>
+                Cargo:<br>
+                <input type="text" name="companyjobtitle">
+            </label><br>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar">
+
+    </form>
+</body>
+</html>

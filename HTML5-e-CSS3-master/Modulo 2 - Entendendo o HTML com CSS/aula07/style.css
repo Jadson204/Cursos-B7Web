@@ -1,0 +1,17 @@
+#titulo {
+    background-color: #89c781;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    background-color: blue;
+    border-radius: 5px;
+}
+
+div {
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #000;
+}

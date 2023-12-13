@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    height: 500px;
+    flex-flow: row nowrap;
+    background-color: #CCC;
+    align-items: center;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}

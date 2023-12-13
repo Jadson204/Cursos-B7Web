@@ -1,0 +1,22 @@
+/* #titulo {
+    color: red;
+    font-size: 25px;
+}
+
+.texto {
+    color: red;
+    font-size: 25px;
+} */
+
+#titulo, .texto {
+    color: red;
+    font-size: 25px;
+}
+
+.texto {
+    font-weight: bold;
+}
+
+ul li {
+    color: violet;
+}

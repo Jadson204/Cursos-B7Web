@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+table, td {
+    border: 2px solid black;
+}
+
+@media only print {
+
+    h1 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    table, td {
+        border: 0;
+    }
+}

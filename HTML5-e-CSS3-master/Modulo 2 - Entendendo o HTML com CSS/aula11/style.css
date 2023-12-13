@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.exemplo {
+    background-color: #0F0;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
+}

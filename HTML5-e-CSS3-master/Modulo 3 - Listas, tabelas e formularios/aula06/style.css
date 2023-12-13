@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 600px;
+    border-radius: 5px;
+}
+
+table thead {
+    background-color: #CCC;
+}
+
+th, td {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #EEE;
+}
+
+tbody td {
+    border-bottom: 1px solid #CCC;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #DDD;
+}

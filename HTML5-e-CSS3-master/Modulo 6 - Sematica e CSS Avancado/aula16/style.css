@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.exemplo {
+    height: 200px;
+    width: 500px;
+    background: blue;
+    background: linear-gradient(-45deg, white, blue);
+    /* background: -moz-linear-gradient(white, blue);
+    background: -o-linear-gradient(white, blue);
+    background: -webkit-linear-gradient(white, blue); */
+}

@@ -1,0 +1,40 @@
+@keyframes exemplo {
+    0% {
+        background-color: red;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    25% {
+        background-color: yellow;
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+    50% {
+        background-color: blue;
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    75% {
+        background-color: green;
+        margin-top: 200px;
+        margin-left: 0px;
+    }
+    100% {
+        background-color: pink;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    position: absolute;
+    animation-name: exemplo;
+    animation-duration: 8s;
+}
