@@ -143,3 +143,65 @@ nav .active a, nav a:hover {
     font-weight: normal;
     font-size: 13px;
 }
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget-body-depar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    
+    .body-depar {
+    width: 150px;
+    height: 140px;
+    background-color: #0079c9;
+    margin-bottom: 20px;
+    }
+    
+    .widget-body-desc p {
+    display: flex;
+    font-size: 15px;
+    color: #323233;
+    font-weight: 600;
+    border-bottom: 1pxsolid#a7acb8;
+    padding-bottom: 15px;
+    }
+    
+    .media-desc-icon {
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    margin: 15px0;
+    border-bottom: 1pxsolid#a7acb8;
+    padding: 6px;
+    }
