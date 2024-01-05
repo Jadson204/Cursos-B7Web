@@ -1,0 +1,9 @@
+p {
+    margin: 20px;
+    height: 30px;
+}
+
+p:empty {
+    background-color: #F00;
+    display: none;
+}
