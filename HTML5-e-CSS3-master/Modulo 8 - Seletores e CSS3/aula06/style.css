@@ -1,0 +1,13 @@
+input , a {
+    display: block;
+}
+
+[required] {
+    background-color: #F00;
+}
+
+
+
+[name="senha"] {
+    background-color: aqua;
+}
