@@ -6,8 +6,19 @@ input , a {
     background-color: #F00;
 }
 
-
-
 [name="senha"] {
     background-color: aqua;
+}
+
+a[href*="economia"] {
+    background-color: #00F;
+}
+
+a[href*="futebol"] {
+    background-color: #0F0;
+}
+
+a[href^="https"] {
+    text-decoration: none;
+    color: #000;
 }
