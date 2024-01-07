@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+span::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #F00;
+    border: 1px solid #000;
+}
+
+span::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #F00;
+    border: 1px solid #000;
+}
