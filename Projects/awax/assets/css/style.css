@@ -115,19 +115,6 @@ header {
     margin-top: 20px;
 }
 
-.banner a {
-    display: block;
-    background-color: #b28756;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 20px;
-}
-
 .banner .sliders-pointers {
     width: 100vw;
     height: 20px;
@@ -180,14 +167,15 @@ header {
     margin: auto;
     max-width: 1140px;
     min-height: 100px;
-    background-color: #CCC;
+    /* background-color: #CCC; */
 }
 
 .default.light {
     background-color: #F7F7F7;
 }
 
-.default.light .section-title {
+.default.light .section-title,
+.default.light .section-body {
     color: #000;
 }
 
@@ -195,6 +183,44 @@ header {
     background-color: #000;
 }
 
-.default.dark .section-title {
+.default.dark .section-title
+.default.dark .section-body {
     color: #FFF;
+}
+
+.button {
+    display: inline-block;
+    background-color: #b28756;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+/*Áreas específicas*/
+.section-aboutus {
+    display: flex;
+}
+
+.section-aboutus--left {
+    flex: 1;
+}
+
+.section-aboutus--left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section-aboutus--right {
+    width: 520px;
+    text-align: center;
+}
+
+.section-aboutus--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
